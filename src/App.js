@@ -40,7 +40,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Emoji Dictionary!</h1>
+      <h1 style = {{backgroundColor: 'cyan'}}>Emoji Dictionary!</h1>
       <h2>Enter The Emoji:</h2>
 
       <input onChange={inputHandler} />
