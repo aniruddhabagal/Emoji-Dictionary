@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Emoji-Dictionary/static/css/main.fc5c2c69.css",
+    "main.js": "/Emoji-Dictionary/static/js/main.93795231.js",
+    "static/js/787.d23101bd.chunk.js": "/Emoji-Dictionary/static/js/787.d23101bd.chunk.js",
+    "index.html": "/Emoji-Dictionary/index.html",
+    "main.fc5c2c69.css.map": "/Emoji-Dictionary/static/css/main.fc5c2c69.css.map",
+    "main.93795231.js.map": "/Emoji-Dictionary/static/js/main.93795231.js.map",
+    "787.d23101bd.chunk.js.map": "/Emoji-Dictionary/static/js/787.d23101bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc5c2c69.css",
+    "static/js/main.93795231.js"
+  ]
+}
