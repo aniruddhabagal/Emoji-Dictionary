@@ -14,7 +14,7 @@ const emojiDictionary = {
 let emojis = Object.keys(emojiDictionary);
 
 export default function App() {
-  const [meaning, setMeaning] = useState("Enter the Emoji");
+  const [meaning, setMeaning] = useState();
 
   function inputHandler(event) {
     let userInput = event.target.value;
@@ -41,10 +41,11 @@ export default function App() {
   return (
     <div className="App">
       <h1>Emoji Dictionary!</h1>
+      <h2>Enter The Emoji:</h2>
 
       <input onChange={inputHandler} />
-
       <h2>{meaning}</h2>
+
       <div>
         <h3>Emojis We Know: </h3>
         {emojis.map(function (emoji) {
